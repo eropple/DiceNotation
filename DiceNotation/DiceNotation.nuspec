@@ -1,0 +1,28 @@
+﻿<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>EdCanHack.DiceNotation</id>
+    <version>$version$</version>
+    <title>EdCanHack.DiceNotation (Portable)</title>
+    <authors>Chris Wagner, Ed Ropple</authors>
+    <owners>Ed Ropple</owners>
+    <licenseUrl>https://github.com/eropple/DiceNotation/blob/master/LICENSE.txt</licenseUrl>
+    <projectUrl>https://github.com/eropple/DiceNotation</projectUrl>
+    <!--<iconUrl>http://ICON_URL_HERE_OR_DELETE_THIS_LINE</iconUrl>-->
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <summary>
+        DiceNotation is a dice rolling library implemented as a PCL.
+    </summary>
+    <description>
+        DiceNotation is a dice rolling library implemented as a PCL. It can be used to turn strings like "6d4k2 + 12" into actionable dice rolls and, using DiceNotation's `MinDieRoller` and `MaxDieRoller`, can easily compute the full range as well.
+    </description>
+    <releaseNotes>
+0.2.0: Initial release on GitHub and NuGet. Upgraded to .NET 4.5 and PCL.
+0.1.0: Initial release on CodePlex.
+    </releaseNotes>
+    <copyright>Copyright 2011 Chris Wagner, 2015 Ed Ropple</copyright>
+    <tags>gamedev dice rolling pcl portable</tags>
+    <dependencies>
+    </dependencies>
+  </metadata>
+</package>

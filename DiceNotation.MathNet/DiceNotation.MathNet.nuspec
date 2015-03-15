@@ -1,0 +1,28 @@
+﻿<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>EdCanHack.DiceNotation.MathNet</id>
+    <version>$version$</version>
+    <title>EdCanHack.DiceNotation.MathNet (Portable)</title>
+    <authors>Ed Ropple</authors>
+    <owners>Ed Ropple</owners>
+    <licenseUrl>https://github.com/eropple/DiceNotation/blob/master/LICENSE.txt</licenseUrl>
+    <projectUrl>https://github.com/eropple/DiceNotation</projectUrl>
+    <!--<iconUrl>http://ICON_URL_HERE_OR_DELETE_THIS_LINE</iconUrl>-->
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <summary>
+        DiceNotation.MathNet extends DiceNotation to support the MathNet.Numerics library.
+    </summary>
+    <description>
+        MathNet.Numerics is a battle-tested library for numerics in C# and provides its own random number generation system. This extends DiceNotation to use its RandomSource instead of .NET's; with this you can still use the default PRNG with `SystemRandomSource` but also supports custom and tunable random generators.
+    </description>
+    <releaseNotes>
+0.2.0: Initial release.
+    </releaseNotes>
+    <copyright>Copyright 2015 Ed Ropple</copyright>
+    <tags>gamedev dice rolling pcl portable</tags>
+    <dependencies>
+        <dependency id="EdCanHack.DiceNotation" version="(0.1.99999, 0.3.0)" />
+    </dependencies>
+  </metadata>
+</package>
