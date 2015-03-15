@@ -2,7 +2,7 @@
 <package >
   <metadata>
     <id>EdCanHack.DiceNotation.MathNet</id>
-    <version>$version$</version>
+    <version>0.2.0</version>
     <title>EdCanHack.DiceNotation.MathNet (Portable)</title>
     <authors>Ed Ropple</authors>
     <owners>Ed Ropple</owners>

@@ -35,6 +35,7 @@
   </PropertyGroup>
   <ItemGroup>
     <!-- A reference to the entire .NET Framework is automatically included -->
+    <None Include="DiceNotation.nuspec" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Dice.cs" />
