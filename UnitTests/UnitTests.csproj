@@ -67,9 +67,9 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\DiceNotation\DiceNotation.Portable.csproj">
+    <ProjectReference Include="..\DiceNotation\DiceNotation.csproj">
       <Project>{2d437642-0f6b-4e02-b02d-ceb01224e2bd}</Project>
-      <Name>DiceNotation.Portable</Name>
+      <Name>DiceNotation</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
